@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: 27866d65d72283f4284b59922701f217
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: BonfireSprite_Frame_0
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 40
+      height: 53
+    spriteID: e528f657b472e7143b2a8721e3d02ecf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: BonfireSprite_Frame_1
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 65
+      width: 40
+      height: 53
+    spriteID: 74669de3fab3a934f98859a56b2ff805
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 65}
+  - name: BonfireSprite_Frame_2
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 126
+      width: 40
+      height: 53
+    spriteID: cdae26ad746acdc408b882aba279f23c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 126}
+  - name: BonfireSprite_Frame_3
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 187
+      width: 40
+      height: 53
+    spriteID: 32ba16ffd924a0346930fb3ae2123a00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 187}
+  - name: BonfireSprite_Frame_4
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 40
+      height: 53
+    spriteID: 4537b149b03e60742aac757394031bf7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: BonfireSprite_Frame_5
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 65
+      width: 40
+      height: 53
+    spriteID: a7ddb762bf5fbee4d888abf382e2ac42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 65}
+  - name: BonfireSprite_Frame_6
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 126
+      width: 40
+      height: 53
+    spriteID: 1e0aa50b717c00b429c800222e764ab5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 126}
+  - name: BonfireSprite_Frame_7
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 187
+      width: 40
+      height: 53
+    spriteID: 6c4e6e8c0d698a3499deadf79e235b18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 187}
+  - name: BonfireSprite_Frame_8
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 40
+      height: 53
+    spriteID: c96bcaf211960974ba9b73512a3ee87a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: BonfireSprite_Frame_9
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 65
+      width: 40
+      height: 53
+    spriteID: 83c7365975bc9054cbb4bcf01780788b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 65}
+  - name: BonfireSprite_Frame_10
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 126
+      width: 40
+      height: 53
+    spriteID: fed2e4e4db6cecd48834bee1c6212f9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 126}
+  - name: BonfireSprite_Frame_11
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 187
+      width: 40
+      height: 53
+    spriteID: c17606f0f9b48a54b864e7383763ec53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 187}
+  - name: BonfireSprite_Frame_12
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 40
+      height: 53
+    spriteID: 8d891842b7ea9454b96dbdd7525722a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: BonfireSprite_Frame_13
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 65
+      width: 40
+      height: 53
+    spriteID: cd58f61143ce430409bbb2b8ecc77d2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 65}
+  - name: BonfireSprite_Frame_14
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 126
+      width: 40
+      height: 53
+    spriteID: 0272e2c470a7248449e51db84d043ab8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 126}
+  - name: BonfireSprite_Frame_15
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 187
+      width: 40
+      height: 53
+    spriteID: eec9df5aef2f1bb4c829cf6a26b63eb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 187}
+  - name: BonfireSprite_Frame_16
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 4
+      width: 40
+      height: 53
+    spriteID: 8bc4c64d6a6362d4d8b70ad27d6e01f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 4}
+  - name: BonfireSprite_Frame_17
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 65
+      width: 40
+      height: 53
+    spriteID: 914a0525c90a1054aa1633d6fb223f10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 65}
+  - name: BonfireSprite_Frame_18
+    originalName: 
+    pivot: {x: 0.55, y: 0.056603774}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 126
+      width: 40
+      height: 53
+    spriteID: dbcc101afdd24fe49b4a622da7b84468
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 126}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2044766224
+    name: BonfireSprite
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: BonfireSprite_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: e528f657b472e7143b2a8721e3d02ecf
+    - name: BonfireSprite_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 74669de3fab3a934f98859a56b2ff805
+    - name: BonfireSprite_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: cdae26ad746acdc408b882aba279f23c
+    - name: BonfireSprite_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 32ba16ffd924a0346930fb3ae2123a00
+    - name: BonfireSprite_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 4537b149b03e60742aac757394031bf7
+    - name: BonfireSprite_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: a7ddb762bf5fbee4d888abf382e2ac42
+    - name: BonfireSprite_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 1e0aa50b717c00b429c800222e764ab5
+    - name: BonfireSprite_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 6c4e6e8c0d698a3499deadf79e235b18
+    - name: BonfireSprite_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: c96bcaf211960974ba9b73512a3ee87a
+    - name: BonfireSprite_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 83c7365975bc9054cbb4bcf01780788b
+    - name: BonfireSprite_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: fed2e4e4db6cecd48834bee1c6212f9a
+    - name: BonfireSprite_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: c17606f0f9b48a54b864e7383763ec53
+    - name: BonfireSprite_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 8d891842b7ea9454b96dbdd7525722a0
+    - name: BonfireSprite_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: cd58f61143ce430409bbb2b8ecc77d2f
+    - name: BonfireSprite_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 0272e2c470a7248449e51db84d043ab8
+    - name: BonfireSprite_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: eec9df5aef2f1bb4c829cf6a26b63eb3
+    - name: BonfireSprite_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 8bc4c64d6a6362d4d8b70ad27d6e01f0
+    - name: BonfireSprite_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: 914a0525c90a1054aa1633d6fb223f10
+    - name: BonfireSprite_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: -3
+        width: 40
+        height: 53
+      spriteId: dbcc101afdd24fe49b4a622da7b84468
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
