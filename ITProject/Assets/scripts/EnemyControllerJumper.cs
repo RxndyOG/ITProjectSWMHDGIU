@@ -33,11 +33,11 @@ public class EnemyControllerJumper : MonoBehaviour
 
         if (isGrounded())
         {
-            anim.SetBool("jumping",false);
+            //anim.SetBool("jumping",false);
         }
         else
         {
-            anim.SetBool("jumping", true);
+            //anim.SetBool("jumping", true);
         }
 
     }
