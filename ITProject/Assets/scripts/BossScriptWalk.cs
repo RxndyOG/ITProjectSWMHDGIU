@@ -57,7 +57,22 @@ public class BossScriptWalk : MonoBehaviour
         // Wenn es Zeit für einen Angriff ist und der Spieler vor dem Boss ist
         if (TimerUntilNextAttack <= 0 && isPlayerAhead() && !inAttack)
         {
-            StartAttack();
+            StartAttack(); 
+            switch (Random.Range(1,3))
+            { 
+                case 1:
+                    isJumping();
+                    anim.SetBool("jumping", true);
+                    inJump = true;
+                    break;
+                case 2:
+                    TriggerAoEAttack();
+                    anim.SetBool("aoe", true);
+                    break;
+                default:
+                    break;
+            }
+            
         }
 
         // Wenn der Boss sich im Angriff befindet, aktualisiere den Angriffstimer
@@ -67,8 +82,27 @@ public class BossScriptWalk : MonoBehaviour
             if (TimerInAttack <= 0)
             {
                 EndAttack();
-                dashDownAttack();
-                //ApplyForceTowardsPlayer();
+                switch (Random.Range(1,3))
+                {
+                    case 1:
+                        if (inJump)
+                        {
+                            dashDownAttack();
+                        }
+                        
+                        break;
+                    case 2:
+                        if (inJump)
+                        {
+                            ApplyForceTowardsPlayer();
+                        }
+                        
+                        break;
+                    default:
+                        
+                        break;
+                }
+               
             }
         }
 
@@ -76,6 +110,9 @@ public class BossScriptWalk : MonoBehaviour
         if (!inAttack && isGround() && TimerUntilNextAttack < 5f)
         {
             isMoving();
+            anim.SetBool("jumping", false);
+            anim.SetBool("dashing", false);
+            anim.SetBool("aoe", false);
         }
 
         if (isPlayerAhead())
@@ -108,8 +145,7 @@ public class BossScriptWalk : MonoBehaviour
     void StartAttack()
     {
         inAttack = true;
-        isJumping();
-        inJump = true;
+        
     }
 
     void EndAttack()
@@ -155,6 +191,9 @@ public class BossScriptWalk : MonoBehaviour
 
     bool isGround()
     {
+
+        anim.SetBool("jumping", false);
+        anim.SetBool("dashing", false);
         Vector2 direction = Vector2.down;
         Vector2 origin = new Vector2(coll.bounds.center.x, coll.bounds.center.y);
 
@@ -168,6 +207,7 @@ public class BossScriptWalk : MonoBehaviour
 
     bool dashDownAttack()
     {
+        anim.SetBool("dashing", true);
         rb.AddForce(Vector2.down * 35f, ForceMode2D.Impulse);
 
         return true;
@@ -188,7 +228,7 @@ public class BossScriptWalk : MonoBehaviour
         if (inJump && collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             inJump = false;
-            TriggerAoEAttack();
+          
         }
     }
 
@@ -210,6 +250,8 @@ public class BossScriptWalk : MonoBehaviour
         }
 
         // Sie können hier weitere AoE-Effekte hinzufügen (z.B. Animationen, Partikel)
+
+        anim.SetBool("aoe",false);
     }
 
     [SerializeField] bool isWallAhead()
