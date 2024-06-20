@@ -61380,6 +61380,7 @@ GameObject:
   - component: {fileID: 881045551}
   - component: {fileID: 881045550}
   - component: {fileID: 881045555}
+  - component: {fileID: 881045556}
   m_Layer: 8
   m_Name: Square
   m_TagString: enemy
@@ -61415,6 +61416,9 @@ MonoBehaviour:
   TimerInAttack: 1
   TimeAttackCount: 0
   inAttack: 0
+  inJump: 0
+  aoeRadius: 5
+  aoeDamage: 10
 --- !u!50 &881045551
 Rigidbody2D:
   serializedVersion: 4
@@ -61474,18 +61478,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.030160606, y: -0.10138121}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.61394346, y: 0.7183854}
   m_EdgeRadius: 0
 --- !u!212 &881045553
 SpriteRenderer:
@@ -61528,7 +61532,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 2100493122, guid: d29ace5e8684f7047956dae9fe3830bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -61567,6 +61571,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPower: 20
+--- !u!95 &881045556
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881045549}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e0f699f29d0d7864b9a1d80ca0a66176, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1091413803
 PrefabInstance:
   m_ObjectHideFlags: 0

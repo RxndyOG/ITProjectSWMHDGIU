@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
+
+
+
 public class BossScriptWalk : MonoBehaviour
 {
 
@@ -67,8 +70,21 @@ public class BossScriptWalk : MonoBehaviour
             if (TimerInAttack <= 0)
             {
                 EndAttack();
-                dashDownAttack();
-                //ApplyForceTowardsPlayer();
+
+                switch (Random.Range(1,3))
+                {
+                    case 1:
+                        anim.SetBool("dashing", true);
+                        dashDownAttack();
+                        
+                        break;
+                    case 2:
+                        anim.SetBool("aoe",true);
+                        ApplyForceTowardsPlayer();
+                        break;
+                    default:
+                        break;
+                }
             }
         }
 
@@ -76,6 +92,9 @@ public class BossScriptWalk : MonoBehaviour
         if (!inAttack && isGround() && TimerUntilNextAttack < 5f)
         {
             isMoving();
+            anim.SetBool("jumping",false);
+            anim.SetBool("dashing", false);
+            anim.SetBool("aoe", false);
         }
 
         if (isPlayerAhead())
@@ -108,6 +127,7 @@ public class BossScriptWalk : MonoBehaviour
     void StartAttack()
     {
         inAttack = true;
+        anim.SetBool("jumping", true);
         isJumping();
         inJump = true;
     }
@@ -188,6 +208,7 @@ public class BossScriptWalk : MonoBehaviour
         if (inJump && collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             inJump = false;
+            
             TriggerAoEAttack();
         }
     }

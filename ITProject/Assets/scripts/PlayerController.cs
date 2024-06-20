@@ -75,9 +75,11 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isGrounded() && isMoving())
+        Debug.Log(attacking);
+        if (isGrounded() && isMoving() && !attacking)
         {
             anim.SetBool("walking", true);
+            
         }
         else
         {
@@ -98,7 +100,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("attacking", true);
         }
-        else if(!attacking)
+        else
         {
             anim.SetBool("attacking", false);
         }
@@ -108,7 +110,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-         Debug.Log(isWallJumping);
         isGrounded();
         isJumping();
         isMoving();
@@ -119,7 +120,7 @@ public class PlayerController : MonoBehaviour
         attackArea.transform.position=rb.position;
         
 
-        if (isGrounded())
+        if (isGrounded()||isWallSliding)
         {
             coyoteTimeCounter = coyoteTime; // Reset Coyote Time
             doubleJump = true;
@@ -191,6 +192,7 @@ public class PlayerController : MonoBehaviour
         }
         if(isWallJumping)
         {
+            
             wallJumpingTime += Time.deltaTime;
             Debug.Log(wallJumpingTime);
             if(wallJumpingTime >= wallJumpingDuration)
