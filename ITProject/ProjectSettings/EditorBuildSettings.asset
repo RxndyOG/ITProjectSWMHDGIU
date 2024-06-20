@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartAreaLevel1.5.unity
     guid: 540f71f1f4e17ad478f6e9e3027b8583
   - enabled: 1
+    path: Assets/Scenes/StartAreaLevel1.6.unity
+    guid: 7f29eb8f5b4e26445ab1e60dbf9548b9
+  - enabled: 1
     path: Assets/Scenes/StartAreaBossLevel.unity
     guid: 14020feb977504b4297a8753e71311b0
   m_configObjects: {}
